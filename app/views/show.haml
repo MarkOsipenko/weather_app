@@ -1,0 +1,8 @@
+%form{:action => "/", :method => "get"}
+  %input{:name => "city", :type => "text"}/
+  %input{:type => "submit"}/
+
+- if city
+  %h2= "Weather in #{city} - #{temperature}"
+- else
+  %h2= "Please  put your city name in unput"
