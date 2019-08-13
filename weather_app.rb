@@ -1,7 +1,6 @@
 # app.rb
 
 require 'sinatra/base'
-
 require 'forecast_io'
 require 'geocoder'
 require './app/controllers/weather_controller.rb'
