@@ -7,7 +7,7 @@ GEM
       faraday
       hashie
       multi_json
-    geocoder (1.5.1)
+    geocoder (1.6.1)
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
@@ -32,7 +32,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.0.2)
   forecast_io
-  geocoder (~> 1.5, >= 1.5.1)
+  geocoder (~> 1.6)
   haml
   sinatra
 
